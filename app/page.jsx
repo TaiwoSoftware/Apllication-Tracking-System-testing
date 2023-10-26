@@ -1,8 +1,11 @@
+"use client"
 import Image from "next/image";
 import illustration from "./images/Rectangle 7.svg";
 import Link from "next/link"
+
 import SignIn from './comps/SignIn'
 export default function Home() {
+  
   return (
     <div className="container">
       <div className="shift">
